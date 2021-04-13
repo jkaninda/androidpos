@@ -6,7 +6,6 @@ import java.text.SimpleDateFormat
 import java.util.*
 
 object DateUtils {
-    @Throws(ParseException::class)
     fun getDate(date: String?): Date {
 
         return getDate(date, "yyyy-MM-dd HH:mm:ss")
