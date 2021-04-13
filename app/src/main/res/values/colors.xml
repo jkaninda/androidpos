@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#2196F3</color>
+    <color name="purple_500">#ED1B24</color>
+    <color name="purple_700">#ED1B24</color>
+    <color name="teal_200">#2196F3</color>
+    <color name="teal_700">#2196F3</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="card1">#642E9D</color>
+    <color name="card2">#16CAC8</color>
+    <color name="card3">#FDD95E</color>
+    <color name="card4">#F57B76</color>
+    <color name="texthint">#66758e</color>
+    <color name="news_card3">#E36138</color>
+    <color name="green">#00C853</color>
+
+
+    <color name="background">#E9ECFC</color>
+
+
+    <!--colros for card-->
+    <color name="whiteCardColor">#fff</color>
+    <color name="aboutcolor">#7C4DFF</color>
+    <color name="order1">#16CAC8</color>
+    <color name="order2">#FF6D00</color>
+    <color name="order3">#00C853</color>
+    <color name="order4">#388386</color>
+
+</resources>
