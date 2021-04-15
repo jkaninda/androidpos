@@ -94,7 +94,7 @@ class PrintInvoiceActivity : AppCompatActivity() {
                 false,
                 1
             )
-            printMe.sendTextToPrinter(getString(R.string.powered_by_jkantech), 15F, false, false, 1)
+            printMe.sendTextToPrinter("****** "+getString(R.string.powered_by_jkantech)+" ******", 15F, false, false, 1)
             printMe.sendTextToPrinter("", 25F, true, false, 1)
             printMe.sendTextToPrinter("", 30F, true, false, 2)
             //printMe.aidlUtil.printBarCode(product_name,8,30,150,1)
