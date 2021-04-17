@@ -60,7 +60,7 @@ class PrintInvoiceActivity : AppCompatActivity() {
             )
             printMe.sendTextToPrinter(" Vente des téléphones cellulaire", 25F, false, false, 1)
             printMe.sendTextToPrinter(" NIF : A1706298Q", 25F, false, false, 1)
-            printMe.sendTextToPrinter(" Nº31, Boulevard Kamanyola, C/Likasi", 25F, false, false, 1)
+            printMe.sendTextToPrinter(" Nº31, Boulevard Kamanyola,   C/Likasi", 25F, false, false, 1)
             printMe.sendTextToPrinter(" Tél: 0978088622 - 0812146485", 25F, false, false, 1)
 
             //printMe.sendTextToPrinter("Contact@ozeckbusiness.com",20F,true,false,1)
@@ -75,7 +75,7 @@ class PrintInvoiceActivity : AppCompatActivity() {
                 }", 25F, false, false, 1
             )
             printMe.sendTextToPrinter("Facture No.: 00", 25F, false, false, 1)
-            printMe.sendTextToPrinter("Nom client : ", 25F, false, false, 1)
+            printMe.sendTextToPrinter("Nom client : ${bindig.editName.editText?.text.toString()}", 25F, false, false, 1)
             printMe.sendTextToPrinter("*****************************", 25F, true, false, 1)
             printMe.sendTextToPrinter("Désignation : ${bindig.editProduct.editText?.text.toString()}", 25F, false, false, 1)
             printMe.sendTextToPrinter("Quantités :  ${bindig.editQty.editText?.text.toString()}", 25F, false, false, 1)
@@ -94,7 +94,7 @@ class PrintInvoiceActivity : AppCompatActivity() {
                 false,
                 1
             )
-            printMe.sendTextToPrinter("****** "+getString(R.string.powered_by_jkantech)+" ******", 15F, false, false, 1)
+            printMe.sendTextToPrinter("******** "+getString(R.string.powered_by_jkantech)+" *********", 15F, false, false, 1)
             printMe.sendTextToPrinter("", 25F, true, false, 1)
             printMe.sendTextToPrinter("", 30F, true, false, 2)
             //printMe.aidlUtil.printBarCode(product_name,8,30,150,1)
